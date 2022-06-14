@@ -1,0 +1,15 @@
+{
+  "name": "dashboard-auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build-woo --prefix UI && npm run start --prefix WooCommerceAutomation"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-vis": "^1.11.7"
+  }
+}
